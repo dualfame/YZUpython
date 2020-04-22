@@ -17,6 +17,10 @@ print('%s 為 %d 的圓面積是 %.3f' % (name, r, r ** 2 * 3.14))
 
 str = 'Hello PYTHON'
 print(str[6])
-print(str[-6])
+print(str[-1])
 print(str[1:6])
 print(str[:6])
+
+#原始字串
+path = r"C:\temp\abc.txt" #加r，不視為跳脫字元
+print(path)
