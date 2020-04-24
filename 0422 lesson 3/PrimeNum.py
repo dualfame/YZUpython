@@ -1,14 +1,14 @@
 # n 是質數?
 
-n = int(input("數字"))
-check = True
+n = int(input(" 輸入數字"))
+check = "質數"
 for i in range(2, n//2+1):
     print("%d / %d 餘數 %d" % (n, i, n % i))
     if n % i == 0:
-        check = False
+        check = "非質數"
         break;
 
-print(n, check)
+print(n, "是", check)
 
 # 2~50 誰是質數
 def isprime(n):
