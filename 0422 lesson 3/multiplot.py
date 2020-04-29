@@ -4,8 +4,10 @@ import numpy as np
 pltlist = plt.style.available
 print(pltlist)
 
-x = [4, 4, 2, 1, 1, 6]
-print(x[5] + x[4])
+x = 1
+y = 0
+z = 2
+print([x, y, z])
 
 #linear
 plt.subplot(3, 1, 1)
