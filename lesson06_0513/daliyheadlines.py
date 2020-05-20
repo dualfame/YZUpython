@@ -13,10 +13,12 @@ for d in data.get('data'):
 
 #print(news_list)
 
-file = open('news.txt', 'a', encoding='UTF=8')
+file = open('news0518.txt', 'w', encoding='UTF-8')
 for news in news_list:
     for head in news['headlines']:
-        if '零確診' in head[1]:
+        if '紓困' in head[1]:
+            file.write('head')
             print(head)
-            file.writelines(head)
-            file.write("\n")
+
+f = open('salary2.txt', 'r')
+print(f.read())
