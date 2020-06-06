@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="demo" uuid="784a12cf-f2fe-41aa-ac0c-21ad0e4eb52e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Dwlin\PycharmProjects\YZU Python\lesson09\SQL\demo.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="people" uuid="56ab256d-f882-461c-b1d3-4c4ab226dc9f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Dwlin\PycharmProjects\YZU Python\lesson09\ORM\people.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
